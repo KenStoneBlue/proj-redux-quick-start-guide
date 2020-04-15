@@ -1,0 +1,26 @@
+{
+  "name": "proj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/app/app.js",
+  "author": "Ken Stone Blue",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --hot --progress --colors --host 0.0.0.0 --port 3000",
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "@babel/preset-env": "7.2.0",
+    "@babel/preset-react": "7.0.0",
+    "babel-core": "6.26.3",
+    "babel-loader": "8.0.4",
+    "babel-plugin-transform-object-rest-spread": "6.26.0",
+    "webpack": "4.27.1",
+    "webpack-cli": "3.1.2",
+    "webpack-dev-server": "3.1.10"
+  },
+  "dependencies": {
+    "redux": "4.0.1"
+  }
+}
