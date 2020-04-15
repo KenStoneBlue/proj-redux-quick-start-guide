@@ -2,7 +2,7 @@
 
 
 
-const tubeLight = (state = "OFF", action) => {
+export const tubeLight = (state = "OFF", action) => {
  switch (action.type) {
    case "TURN_ON":
      return "ON";
@@ -12,5 +12,6 @@ const tubeLight = (state = "OFF", action) => {
      return state;
  }
 };
+
 
 
